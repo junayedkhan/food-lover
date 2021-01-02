@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Patua One', cursive;
+}
+.header-section{
+   background-color: black;
+    padding-bottom: 5rem;
+}
+.header-section-1{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;  
+}
+.header-section-item{
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+.header-section-item ul li{
+    display: inline-block;
+}
+.header-section-item ul li .active{
+    color: #e39210;
+}
+.header-section-item ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+.header-section-item-logo img{
+    margin-top: -30px;
+}
+.baner-section{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.baner-section-item-1 img{
+    width: 515px;
+    margin-left: 3rem;
+}
+.baner-section-item-2{
+    margin-left: 3rem;
+}
+.baner-section-item-2 h1{
+    font-size: 55px;
+    color: #e39210;
+}
+.baner-section-item-2 p{
+    font-size: 25px;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+.baner-section-item-2 button{
+    color: #000000;
+    padding: 15px;
+    width: 145px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    background:#e39210;
+    font-weight: bold;
+    cursor: pointer;
+}
+.aboutUs-section{
+    background: #000000;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutUs-section img{
+    width: 500px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.aboutUs-section-text{
+    margin-right: 5rem;
+}
+.aboutUs-section-text h1{
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+.aboutUs-section-text p{
+    font-size: 25px;
+    margin-left: 3rem;
+}
+.quality-section{
+    position: relative;
+    padding-top: 1rem;
+    background-color: #000000;
+    height: 94rem;
+}
+.quality-section img{
+    position: absolute;
+    right: 0;
+    width: 335px;
+}
+.quality-section .img-1{
+    position: absolute;
+    top: 584px;
+    width: 730px;
+}
+.quality-section .img-2{
+    left: 0;
+    top: 865px;
+    width: 470px;
+}
+.quality-section .img-3{
+    width: 1270px;
+    height: 1287px;
+    top: 78px;
+}
+.quality-section-text{
+    position: absolute;
+    margin-left: 10rem;
+    top: 370px;
+}
+.quality-section-text p{
+    font-size: 22px;
+    margin-top: 1rem;
+}
+.gallary-section{
+    background: #000000;
+    padding-bottom: 5rem;
+}
+.gallary-section-img{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.gallary-section-img img{
+    width: 370px;
+    padding: 1rem 0;
+}
+.gallary-section h1{
+    padding: 4rem 0;
+    text-align: center;
+}
+.enjoyOurFood-section{
+    background: #000000;
+}
+.enjoyOurFood-section img{
+    width: 100%;
+}
+.menu-section-container{
+    background: #000000;
+}
+.menu-section{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 3rem;
+}
+.menu-section-item{
+    width: 345px;
+}
+.menu-section-item img{
+    width: 100%;
+}
+.menu-section-item h1{
+    font-size: 26px;
+    margin-top: 1rem;
+    color: #e39210;
+    text-transform: uppercase;
+}
+.menu-section-item p{
+    text-align: justify;
+    padding: 0.5rem 0;
+}
+.menu-price{
+    color: #e39210;
+}
+.meal-section{
+    background: #000000;
+    padding-top: 4rem;
+}
+.meal-section img{
+    width: 100%;
+}
+.footer-section{
+    margin-top: -40px;
+    background:#2b2e2b;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.footer-section img{
+    padding: 3rem 0;
+    width: 300px;
+}
+.footer-section ul li{
+    display: inline-block;
+    padding: 0 1rem;
+    text-transform: uppercase;
+}
+.footer-section-icon{
+    margin-top: 2rem;
+}
+.footer-section-icon i{
+    margin: 0 10px;
+    font-size: 25px;
+}
+.footer-section-icon i:hover{
+    color: #e39210;
+    transition: 0.5 ease-out;
+}
